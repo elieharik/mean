@@ -2,6 +2,8 @@
  * Module dependencies.
  */
 
+// ARTICLE CONTROLLER 
+
 var mongoose = require('mongoose')
   , async = require('async')
   , Article = mongoose.model('Article')

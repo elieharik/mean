@@ -1,0 +1,21 @@
+{
+
+	 "launchers": {
+        "node": {
+            "command": "npm test"
+        }
+      },
+
+	"framework" : "mocha",
+
+	"launch_in_dev" : ["chrome", "node"],
+
+	"src_files" : [ "node_modules/chai/chai.js" ,
+	"test/frontend-test/*.js",
+	"public/js/controllers/*.js",
+	"public/js/directives.js",
+	"public/js/filters.js"
+
+	]
+
+}

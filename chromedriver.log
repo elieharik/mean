@@ -1,0 +1,49 @@
+[0.000][INFO]:      ChromeDriver 26.0.1383.0 /usr/local/Cellar/chromedriver/26.0.1383.0/bin/chromedriver
+[0.368][FINE]:      Initializing session with capabilities {
+   "browserName": "chrome"
+}
+
+[0.368][INFO]:      Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --disable-background-networking --disable-sync --disable-translate --disable-web-resources --safebrowsing-disable-auto-update --safebrowsing-disable-download-protection --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --enable-logging --log-level=1 --use-mock-keychain --ignore-certificate-errors about:blank
+[6.625][INFO]:      Connected to Chrome successfully. Version: 28.0.1500.95
+[6.658][FINE]:      Command received (/session/db212617ece3950a00df99487b130a8e)
+[6.658][FINE]:      Command finished (/session/db212617ece3950a00df99487b130a8e) with response {
+   "sessionId": "db212617ece3950a00df99487b130a8e",
+   "status": 0,
+   "value": {
+      "acceptSslCerts": false,
+      "applicationCacheEnabled": false,
+      "browserConnectionEnabled": false,
+      "browserName": "chrome",
+      "chrome.chromedriverVersion": "26.0.1383.0",
+      "cssSelectorsEnabled": true,
+      "databaseEnabled": false,
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "locationContextEnabled": false,
+      "nativeEvents": true,
+      "platform": "mac",
+      "rotatable": false,
+      "takesScreenshot": true,
+      "version": "28.0.1500.95",
+      "webStorageEnabled": true
+   }
+}
+
+[6.714][FINE]:      Command received (/session/db212617ece3950a00df99487b130a8e/timeouts/async_script) with params {
+   "ms": 100000
+}
+
+[6.714][FINER]:     Waiting for all views to stop loading...
+[6.714][FINER]:     Done waiting for all views to stop loading
+[6.714][FINER]:     Waiting for all views to stop loading...
+[6.714][FINER]:     Done waiting for all views to stop loading
+[6.714][FINE]:      Command finished (/session/db212617ece3950a00df99487b130a8e/timeouts/async_script) with response {
+   "sessionId": "db212617ece3950a00df99487b130a8e",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[6.745][FINE]:      Command received (/session/db212617ece3950a00df99487b130a8e)
+[7.281][INFO]:      Chrome shutdown
