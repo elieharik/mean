@@ -1,3 +1,38 @@
+# MEAN io 
+
+* Install dependencies with `npm install`
+* Start server with `node server`
+* Run backend and unit tests with `testem`
+* If protractor installed globally, run protractor with `protractor protractor-conf.js`
+* Otherwise, run with: `node_modules/.bin/protractor protractor-conf.js`
+
+
+
+If want to run backend and Mocha unit tests seperatly, replace the testem.json file with the following:
+Backend testing will start with `npm test` and unit tests with `testem`.
+
+```
+
+
+{
+
+ "framework" : "mocha",
+
+	"launch_in_dev" : ["chrome"],
+
+	"src_files" : [ "node_modules/chai/chai.js" ,
+	"test/test-testem.js",
+	"public/js/controllers/*.js",
+	"public/js/directives.js",
+	"public/js/filters.js"
+
+	]
+
+}
+
+
+```
+
 # MEAN Stack
 
 MEAN is a boilerplate that provides a nice starting point for MongoDB, Node.js, Express, and AngularJS based applications.  
