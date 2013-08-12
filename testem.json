@@ -11,7 +11,7 @@
 	"launch_in_dev" : ["chrome", "node"],
 
 	"src_files" : [ "node_modules/chai/chai.js" ,
-	"test/frontend-test/*.js",
+	"test/test-testem.js",
 	"public/js/controllers/*.js",
 	"public/js/directives.js",
 	"public/js/filters.js"

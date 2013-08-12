@@ -13,7 +13,7 @@ exports.config = {
   baseUrl: 'localhost:3000/',
 
   specs: [
-    'test/frontend-test/test-e2e.js'
+    'test/test-e2e.js'
   ],
 
   jasmineNodeOpts: {
