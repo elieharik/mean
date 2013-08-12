@@ -1,8 +1,11 @@
 # MEAN io 
 
 * Install dependencies with `npm install`
+* Install testem: `npm intall testem -g`
+* Run `mongod`
 * Start server with `node server`
 * Run backend and unit tests with `testem`
+* Run backedn tests alone with `npm test`
 * If protractor installed globally, run protractor with `protractor protractor-conf.js`
 * Otherwise, run with: `node_modules/.bin/protractor protractor-conf.js`
 
